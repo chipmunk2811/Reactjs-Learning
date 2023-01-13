@@ -1,0 +1,5 @@
+====== Buổi 2 ======
+    - Rendering elements: {}
+    - Handling Events: onClick
+    - State: Nếu như state => component render lại lần mới
+    - List keys

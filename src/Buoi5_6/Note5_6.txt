@@ -1,0 +1,7 @@
+====== Buổi 5 ======
+    - User management
+    - Form
+    -_findIndex
+    -XỬ LÝ THAM CHIẾU CỦA LỚP ĐỐI TƯỢNG KHI TẠO ID
+    -React.createRef
+    - .preventDefault(); (SPA)

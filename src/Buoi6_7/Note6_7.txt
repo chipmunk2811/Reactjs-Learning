@@ -1,0 +1,3 @@
+====== Buổi 6 ======
+    - Redux (ReactJS sử dụng Redux để hỗ trợ)
+    

@@ -1,0 +1,11 @@
+import React, { PureComponent } from 'react'
+
+export default class ChildPure extends PureComponent {
+  render() {
+    console.log("(render Child Pure)")
+    return (
+      <div>ChildPure</div>
+    )
+    
+  }
+}

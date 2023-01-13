@@ -1,0 +1,4 @@
+====== Buổi 3 ======
+    - Communicate: giao tiếp các component
+        + Props: truyền data từ component cha => component con
+        + Lifting State Up: truyền data từ component con => component cha
