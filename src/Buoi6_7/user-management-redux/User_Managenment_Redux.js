@@ -28,7 +28,6 @@ class Redux extends Component {
   }
 }
 const mapDispathchToProps = (dispatch) => {
-
   return {
     addSubmit: () => {
       const action = {

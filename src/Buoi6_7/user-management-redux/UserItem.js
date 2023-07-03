@@ -30,7 +30,6 @@ class UserItem extends Component {
 
 // Gữi action lên redux
 const mapDispathchToProps = (dispatch) => {
-
   return {
     deleteUser: (id) => {
       dispatch(actDeleteUser(id));
