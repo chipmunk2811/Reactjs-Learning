@@ -19,7 +19,7 @@ class Table extends Component {
                         </tr>
                     </thead>
                     <tbody>
-
+            
                     </tbody>
                 </table>
             </>

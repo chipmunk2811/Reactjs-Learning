@@ -19,7 +19,6 @@ const userReducer = (state = initialState, action) => {
         userList.splice(index, 1);
       }
       state.userList = userList;
-      console.log(state)
       return { ...state };
     };
 
@@ -30,7 +29,7 @@ const userReducer = (state = initialState, action) => {
         const index = userList.findIndex(user => user.id === action.payload.id);
         if (index !== -1) {
           userList[index] = action.payload;
-        };
+        }
         state.userList = userList;
         return { ...state };
       } else {
@@ -38,6 +37,7 @@ const userReducer = (state = initialState, action) => {
         const userNew = { ...action.payload, id: new Date().getTime() };
         state.userList = [...userList, userNew];
       };
+      
       return { ...state };
     };
 

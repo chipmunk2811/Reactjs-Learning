@@ -26,6 +26,7 @@ import Buoi8 from "./Buoi8/Buoi8";
 import Home from "./Home/Home";
 import Buoi9 from "./Buoi9/FormValidation/index.jsx";
 import LifeCircle from "./Buoi9/Lifecircle/LifeCircle";
+import Buoi11 from "./Buoi11";
 
 
 
@@ -44,6 +45,7 @@ function App() {
           <Route path="Buoi8" element={<Buoi8 />}></Route>
           <Route path="Buoi9-1" element={<Buoi9 />}></Route>
           <Route path="Buoi9-2" element={<LifeCircle />}></Route>
+          <Route path="Buoi11" element={<Buoi11 />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

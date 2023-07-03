@@ -24,6 +24,9 @@ export default class Home extends Component {
                     >(Buổi 9) Form Validation</NavLink>
                     <NavLink to="/Buoi9-2" className="list-group-item list-group-item-action list-group-item-light" style={({ isActive }) => isActive ? { fontWeight: 'bold', color: 'white' } : {}}
                     >(Buổi 9) Life Circle</NavLink>
+
+                    <NavLink to="/Buoi11" className="list-group-item list-group-item-action list-group-item-success" style={({ isActive }) => isActive ? { fontWeight: 'bold', color: 'white' } : {}}
+                    >(Buổi 11) Hook </NavLink>
                 </div>
                 <hr />
                 <hr />

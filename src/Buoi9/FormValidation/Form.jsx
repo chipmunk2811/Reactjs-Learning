@@ -30,10 +30,7 @@ class FormSV extends Component {
             [name]: value,
         })
     }
-    handleSubmit = (event) => {
-        event.preventDefault();
-        this.props.submitSV(this.state)
-    }
+
     handleError = (word) => {
         const { name, value } = word.target;
 
@@ -59,7 +56,7 @@ class FormSV extends Component {
                 if (value && !value.match("[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$")) {
                     mess = "Vui lòng nhập đúng định dạng mail"
                     masvValid = false;
-                }else{ masvValid = true;}
+                } else { masvValid = true; }
                 break;
             default:
                 break;
@@ -75,6 +72,11 @@ class FormSV extends Component {
         }
             , () => { console.log(this.state) }
         )
+    }
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+        this.props.submitSV(this.state)
     }
 
     render() {

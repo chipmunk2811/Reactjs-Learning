@@ -33,7 +33,7 @@ class User_Managerment extends Component {
     // this.setState({ userList: userListNew, })
     // Lỗi xóa luôn data => Khắc phục, if else để this.setSate rỗng trả về userList else trả về UserListNew
 
-    this.setState({ keyWord, })
+    this.setState({ keyWord })
   }
 
   // submit user
